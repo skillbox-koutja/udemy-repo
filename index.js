@@ -17,6 +17,6 @@ let questions = 2;
 while (questions--) {
     let expense = prompt('Введите обязательную статью расходов в этом месяце');
     let cost = prompt('Во сколько обойдется?');
-    appData[expense] = +cost;
+    appData.expenses[expense] = +cost;
 }
 alert(appData.budget / 30);
